@@ -1,0 +1,48 @@
+.education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edu-content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.edu-content .card {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.edu-content .card:hover {
+    transform: translateX(1rem);
+}
+
+.edu-content .card .card-info span{
+    letter-spacing: 0;
+}
+
+/* for mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .edu-content {
+        margin-top: 16px;
+        row-gap: 12px;
+    }
+}
+
+
+/* for ipads and tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .edu-content {
+        margin-top: 16px;
+        row-gap: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .edu-content .card {
+        width: 480px;
+    }
+}

@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    scrollbar-width: none;
+}
+
+.container {
+    padding: 24px 160px
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.heading-2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 24px;
+    text-align: center;
+}
+
+.subheading-2 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.description {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.card {
+    width: 670px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    padding: 16px 18px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-stmt {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.card-info {
+    font-size: 18px;
+    margin-top: 16px;
+    letter-spacing: 1px;
+}
+
+#theme-toggle {
+    display: none;
+}
+
+.btn {
+    background-color: #1d1d1d;
+    color: #f5f5f5;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 2px solid #1d1d1d;
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #1d1d1d;
+}
+
+label {
+    background-color: #1d1d1d;
+    color: #fafafa;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1d1d1d;
+    color: #fafafa;
+    padding: 14px 0;
+}
+
+footer .description {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* for mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 24px 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .heading-2 {
+        font-size: 20px;
+    }
+
+    .subheading {
+        font-size: 18px;
+    }
+
+    .subheading-2 {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .card-stmt {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+
+    .card-info {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 12px 16px;
+    }
+
+    footer .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
+
+/* for ipads and tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 24px 56px;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .heading-2 {
+        font-size: 24px;
+    }
+
+    .subheading {
+        font-size: 22px;
+    }
+
+    .subheading-2 {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .card-stmt {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+
+    .card-info {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 12px 16px;
+    }
+
+    footer .description {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .container {
+        padding: 24px 64px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .heading-2 {
+        font-size: 28px;
+    }
+
+    .subheading {
+        font-size: 26px;
+    }
+
+    .subheading-2 {
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 28px;
+    }
+
+    .card-stmt {
+        margin-top: 2px;
+        font-size: 20px;
+    }
+
+    .card-info {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 16px;
+    }
+
+    footer .description {
+        font-size: 16px;
+        text-align: center;
+    }
+}
