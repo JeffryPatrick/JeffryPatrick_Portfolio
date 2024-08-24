@@ -81,15 +81,19 @@
     }
 
     .contact-links {
-        margin-top: 12px;
-        flex-direction: column;
-        row-gap: 8px;
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        column-gap: 16px;
+        justify-content: center;
     }
 
     .contact-links a {
-        letter-spacing: 0;
-        padding: 8px 16px;
-        font-weight: 500;
+
+    }
+
+    .contact-links img {
+        width: 28px;
     }
 
     .contact-form {

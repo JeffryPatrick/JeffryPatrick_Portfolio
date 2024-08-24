@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <div className={isNavExpanded ? "menu-icon rotate" : "menu-icon"}
                  onClick={() => setIsNavExpanded(!isNavExpanded)}>
-                <img src={"/src/assets/icons/hamburger-icon.png"} alt={"menu-icon"}/>
+                <img src={"/public/assets/icons/hamburger-icon.png"} alt={"menu-icon"}/>
             </div>
         </header>
 
