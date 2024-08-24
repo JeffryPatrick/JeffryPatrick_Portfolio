@@ -71,6 +71,10 @@
         /*border-bottom: 1px solid #1d1d1d;*/
     }
 
+    .logo {
+        letter-spacing: -1px;
+    }
+
     .nav-list {
         background-color: #ffffff;
         display: none;

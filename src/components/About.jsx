@@ -1,10 +1,11 @@
 import "/src/css/About.css"
 
+
 const About = () => {
     return (
         <section id={"about"} className={"about-section container"}>
             <p className={"heading"}>Get to Know About Me</p>
-            <img src={"/public/assets/images/avatar.jpg"} alt={"Jeffry Patrick Image"} className={"about-img"}/>
+            <img src={"assets/images/avatar.jpg"} alt={"Jeffry Patrick Image"} className={"about-img"}/>
             <div className={"about-content"}>
                 <p className={"subheading"}>Hi, This is</p>
                 <span className={"heading"}>SivaSudhan</span>

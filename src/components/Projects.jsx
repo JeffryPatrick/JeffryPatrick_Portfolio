@@ -7,7 +7,7 @@ const Projects = () => {
             <p className={"subheading-2"}>Browse the Projects I've developed</p>
             <div className={"proj-content"}>
                 <div className={"card"}>
-                    <img src={"/public/assets/images/project-management.png"} className={"proj-img"}
+                    <img src={"/assets/images/project-management.png"} className={"proj-img"}
                          alt={"Image of the Project"}/>
                     <div className={"proj-template"}>
                         <p className={"card-title"}>Invoice Management Software</p>
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className={"card"}>
-                    <img src={"/public/assets/images/project-management.png"} className={"proj-img"}
+                    <img src={"/assets/images/project-management.png"} className={"proj-img"}
                          alt={"Image of the Project"}/>
                     <div className={"proj-template"}>
                         <p className={"card-title"}>Invoice Management Software</p>

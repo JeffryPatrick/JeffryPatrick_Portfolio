@@ -25,22 +25,22 @@ const Contact = () => {
                 </form>
                 <div className={"contact-links"}>
                     <a href={"/linkedin"}>
-                        <img src={"/public/assets/icons/linkedin.png"} alt={"linkedin-icon"}/>
+                        <img src={"/assets/icons/linkedin.png"} alt={"linkedin-icon"}/>
                     </a>
                     <a href={"mailto:jeffrypatrick430@gmail.com"}>
-                        <img src={"/public/assets/icons/email.png"} alt={"email-icon"}/>
+                        <img src={"/assets/icons/email.png"} alt={"email-icon"}/>
                     </a>
                     <a href={"/mobile"}>
-                        <img src={"/public/assets/icons/mobile.png"} alt={"mobile-icon"}/>
+                        <img src={"/assets/icons/mobile.png"} alt={"mobile-icon"}/>
                     </a>
                     <a href={"/facebook"}>
-                        <img src={"/public/assets/icons/facebook.png"} alt={"facebook-icon"}/>
+                        <img src={"/assets/icons/facebook.png"} alt={"facebook-icon"}/>
                     </a>
                     <a href={"/instagram"}>
-                        <img src={"/public/assets/icons/instagram.png"} alt={"instagram-icon"}/>
+                        <img src={"/assets/icons/instagram.png"} alt={"instagram-icon"}/>
                     </a>
                     <a href={"/twitter"}>
-                        <img src={"/public/assets/icons/twitter.png"} alt={"X-icon"}/>
+                        <img src={"/assets/icons/twitter.png"} alt={"X-icon"}/>
                     </a>
                 </div>
             </section>
