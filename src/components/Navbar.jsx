@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (<header className={'header'} id={"navigation"}>
             <div>
-                <a href={'/'} className={'logo'}>SS</a>
+                <a href={'/'} className={'logo'}>JP</a>
             </div>
             <nav className={'navbar'}>
                 <ul className={isNavExpanded ? 'nav-list expanded' : 'nav-list'}>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <div className={isNavExpanded ? "menu-icon rotate" : "menu-icon"}
                  onClick={() => setIsNavExpanded(!isNavExpanded)}>
-                <img src={"/assets/icons/hamburger-icon.png"} alt={"menu-icon"}/>
+                <img src={"assets/icons/hamburger-icon.png"} alt={"menu-icon"}/>
             </div>
         </header>
 

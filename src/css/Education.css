@@ -16,6 +16,10 @@
     transition: .3s;
 }
 
+.edu-content .card .subheading-1{
+    margin: 4px 0;
+}
+
 .edu-content .card:hover {
     transform: translateX(1rem);
 }

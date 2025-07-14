@@ -60,7 +60,7 @@
     outline: 0;
 }
 
-.contact-form input:hover, textarea:hover {
+.contact-form input:focus, textarea:focus{
     border-bottom: 2px solid #1d1d1d;
     outline: 0;
 }
@@ -83,7 +83,7 @@
     .contact-links {
         margin-top: 24px;
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: repeat(3, auto);
         column-gap: 16px;
         justify-content: center;
     }

@@ -1,5 +1,4 @@
 {
-
   "name": "jeffrypatrick",
   "private": true,
   "version": "0.0.0",
@@ -11,12 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "@react-email/components": "^0.0.23",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
